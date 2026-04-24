@@ -56,8 +56,10 @@ A premium, full-stack hotel management system built with HTML, CSS, JavaScript, 
 | Role | Username | Password |
 |------|----------|----------|
 | **Admin** | `admin` | `password` |
-| **Manager** | `deva` | `password` |
-| **Client** | `ermi` | `password` |
+| **Manager** | `manager` | `password` |
+| **Reception** | `reseption` | `password` |
+| **Client** | `client` | `password` |
+
 
 ## 🧪 Tech Stack
 - **Frontend**: Vanilla CSS (Custom UI), Bootstrap 5, FontAwesome, JavaScript (ES6+).
