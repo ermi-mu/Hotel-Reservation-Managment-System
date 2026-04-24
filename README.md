@@ -5,7 +5,7 @@ A premium, full-stack hotel management system built with HTML, CSS, JavaScript, 
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page] (docs/images/home_page.png)
+![Login Page](docs/images/home_page.png)
 ### Login Page
 ![Login Page](docs/images/login.png)
 
