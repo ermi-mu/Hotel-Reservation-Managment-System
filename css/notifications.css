@@ -41,3 +41,35 @@
 .toast-item.info {
     border-left-color: #3498db;
 }
+.toast-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.toast-icon {
+    font-size: 1.5rem;
+}
+
+.toast-item.success .toast-icon {
+    color: #27ae60;
+}
+
+.toast-item.error .toast-icon {
+    color: #e74c3c;
+}
+
+.toast-item.warning .toast-icon {
+    color: #f39c12;
+}
+
+.toast-item.info .toast-icon {
+    color: #3498db;
+}
+
+.toast-message {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    color: #333;
+    font-weight: 500;
+}
