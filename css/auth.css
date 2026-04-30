@@ -109,3 +109,27 @@
 .input-with-icon .form-control {
   padding-left: 3rem;
 }
+
+.password-strength {
+  margin-top: 0.5rem;
+}
+
+.strength-bar {
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+}
+
+.strength-level {
+  height: 100%;
+  width: 0;
+  background: var(--danger-color);
+  transition: width 0.3s, background 0.3s;
+}
+
+.strength-text {
+  font-size: 0.85rem;
+  color: #666;
+}
