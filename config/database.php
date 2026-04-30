@@ -9,4 +9,12 @@ if (php_sapi_name() === 'cli' ||
     (isset($_SERVER['HTTP_HOST']) && ($_SERVER['HTTP_HOST'] == 'localhost:8000' || $_SERVER['REMOTE_ADDR'] == '127.0.0.1' || $_SERVER['REMOTE_ADDR'] == '::1' || strpos($_SERVER['REMOTE_ADDR'], '192.168.') === 0))) {
     $isLocal = true;
 }
+
+if ($isLocal) {
+    // LOCAL CONFIGURATION (Your Computer)
+    define('DB_HOST', '127.0.0.1');
+    define('DB_USER', 'hotel_user');
+    define('DB_PASS', 'HotelAppPass123++');
+    define('DB_NAME', 'hotel_management');
+}
 ?>
