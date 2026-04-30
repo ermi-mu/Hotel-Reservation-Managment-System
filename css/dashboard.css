@@ -401,3 +401,18 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.chart-container {
+  background: var(--bg-card);
+  padding: 1.75rem;
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border-color);
+}
+
+.chart-container h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
