@@ -24,4 +24,39 @@ if ($isLocal) {
     define('DB_NAME', 'if0_41457820_hotel_reservation_system');
 }
 
+// Create connection
+function getDBConnection($useDb = true) {
+    try {
+        if ($useDb) {
+            $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+        } else {
+            $conn = new mysqli(DB_HOST, DB_USER, DB_PASS);
+        }
+        
+        // Check connection (for older PHP versions where exceptions aren't thrown by default)
+        if ($conn->connect_error) {
+            throw new Exception("Connection failed: " . $conn->connect_error);
+        }
+    } catch (Exception $e) {
+        $errorMsg = "Database Connection failed: " . $e->getMessage();
+        
+        // Check if running from command line
+        if (php_sapi_name() === 'cli') {
+            die($errorMsg . "\n");
+        } else {
+            http_response_code(500);
+            header('Content-Type: application/json');
+            echo json_encode([
+                'success' => false, 
+                'message' => $errorMsg . '. Please configure your MySQL credentials in config/database.php.'
+            ]);
+            exit;
+        }
+    }
+    
+    // Set charset
+    $conn->set_charset("utf8mb4");
+    
+    return $conn;
+}
 ?>
