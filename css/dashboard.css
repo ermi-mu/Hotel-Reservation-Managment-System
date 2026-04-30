@@ -153,3 +153,31 @@
   gap: 1.25rem;
   align-items: center;
 }
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding: 0.75rem 1rem 0.75rem 2.75rem;
+  width: 280px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  background: #f8fafc;
+  transition: all 0.3s;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  background: white;
+  box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.1);
+}
+
+.search-box i {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 1rem;
+}
