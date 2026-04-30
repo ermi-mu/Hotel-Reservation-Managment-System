@@ -26,3 +26,13 @@
     position: relative;
     overflow: hidden;
 }
+
+.success-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #27ae60, #2ecc71);
+}
