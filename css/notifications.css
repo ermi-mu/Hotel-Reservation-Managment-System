@@ -103,3 +103,19 @@
     transform-origin: left;
     animation: progress 3s linear forwards;
 }
+
+.toast-item.success .toast-progress-bar {
+    background: #27ae60;
+}
+
+.toast-item.error .toast-progress-bar {
+    background: #e74c3c;
+}
+
+.toast-item.warning .toast-progress-bar {
+    background: #f39c12;
+}
+
+.toast-item.info .toast-progress-bar {
+    background: #3498db;
+}
