@@ -25,3 +25,19 @@
     overflow: hidden;
     position: relative;
 }
+
+.toast-item.success {
+    border-left-color: #27ae60;
+}
+
+.toast-item.error {
+    border-left-color: #e74c3c;
+}
+
+.toast-item.warning {
+    border-left-color: #f39c12;
+}
+
+.toast-item.info {
+    border-left-color: #3498db;
+}
