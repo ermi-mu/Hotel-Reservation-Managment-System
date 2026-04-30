@@ -520,3 +520,69 @@
 .sidebar-toggle {
   display: none;
 }
+.activity-item {
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: #f8fafc;
+  border: 1px solid var(--border-color);
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.3s;
+}
+
+.activity-item:hover {
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: translateX(5px);
+}
+
+.activity-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.activity-content h5 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.activity-content p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Custom Scrollbar for activity window */
+.activity-scroll {
+  max-height: 280px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.activity-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.activity-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.activity-scroll::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.activity-scroll::-webkit-scrollbar-thumb:hover {
+  background: #b38e4a;
+}
