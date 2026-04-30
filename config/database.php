@@ -59,4 +59,10 @@ function getDBConnection($useDb = true) {
     
     return $conn;
 }
+
+// Function to close connection
+function closeDBConnection($conn) {
+    $conn->close();
+}
+
 ?>
