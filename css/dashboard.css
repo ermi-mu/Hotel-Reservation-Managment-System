@@ -438,3 +438,27 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
 }
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .sidebar h3,
+  .sidebar p,
+  .sidebar-menu a span {
+    display: none;
+  }
+
+  .sidebar-header {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .sidebar-menu li {
+    margin: 0.5rem;
+  }
+
+  .sidebar-menu a {
+    justify-content: center;
+    padding: 1rem;
+  }
+}
