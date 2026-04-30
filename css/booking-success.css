@@ -53,3 +53,14 @@
     font-size: 40px;
     color: #27ae60;
 }
+
+.success-card h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.success-card p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
