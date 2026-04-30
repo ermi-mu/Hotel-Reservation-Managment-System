@@ -11,4 +11,12 @@ define('FACEBOOK_APP_ID', 'YOUR_FACEBOOK_APP_ID');
 
 / Base URL for redirects (useful for Stripe success/cancel URLs)
 define('BASE_URL', 'https://ermias.great-site.net/');
+
+// Email Configuration (SMTP)
+define('SMTP_HOST', 'smtp.gmail.com');
+define('SMTP_PORT', 587);
+define('SMTP_USER', 'ermiasmuluget71@gmail.com');
+define('SMTP_PASS', 'YOUR_GMAIL_APP_PASSWORD'); // Needs an App Password from Google
+define('SMTP_FROM_EMAIL', 'ermiasmuluget71@gmail.com');
+define('SMTP_FROM_NAME', 'Grand Hotel');
 ?>
