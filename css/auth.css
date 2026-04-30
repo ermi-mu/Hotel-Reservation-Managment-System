@@ -269,3 +269,12 @@ select.form-control {
   background-position: calc(100% - 1rem) center;
   padding-right: 2.5rem;
 }
+@media (max-width: 480px) {
+  .auth-card {
+    margin: 1rem;
+  }
+
+  .social-buttons {
+    grid-template-columns: 1fr;
+  }
+}
