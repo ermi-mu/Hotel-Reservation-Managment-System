@@ -172,3 +172,55 @@
 .auth-btn:hover {
   background: #2980b9;
 }
+
+.auth-social {
+  margin-top: 2rem;
+}
+
+.social-divider {
+  text-align: center;
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.social-divider span {
+  background: white;
+  padding: 0 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.social-divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #eee;
+  z-index: -1;
+}
+
+.social-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.social-btn {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+}
+
+.social-btn:hover {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
