@@ -266,3 +266,31 @@
   color: var(--primary-color);
   margin: 0;
 }
+.section-content {
+  background: var(--bg-card);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+/* Specific component containers */
+.recent-reservations,
+.recent-activity,
+.today-section,
+.quick-actions {
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+}
+
+.recent-reservations h4,
+.recent-activity h4,
+.today-section h4,
+.quick-actions h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  font-size: 1.35rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
