@@ -240,3 +240,24 @@
 .auth-footer a:hover {
   text-decoration: underline;
 }
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.terms label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.terms a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
