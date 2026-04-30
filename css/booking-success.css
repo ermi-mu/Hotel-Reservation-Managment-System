@@ -72,3 +72,27 @@
     margin-bottom: 2rem;
     text-align: left;
 }
+
+.receipt-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.receipt-row:last-child {
+    margin-bottom: 0;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #dce2e0;
+}
+
+.receipt-label {
+    color: #95a5a6;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.receipt-value {
+    color: #2c3e50;
+    font-weight: 600;
+}
