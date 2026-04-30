@@ -8,4 +8,7 @@ define('GOOGLE_CLIENT_ID', 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com');
 
 // Facebook Developers (https://developers.facebook.com/)
 define('FACEBOOK_APP_ID', 'YOUR_FACEBOOK_APP_ID');
+
+/ Base URL for redirects (useful for Stripe success/cancel URLs)
+define('BASE_URL', 'https://ermias.great-site.net/');
 ?>
