@@ -338,3 +338,66 @@
   font-size: 0.75rem;
   text-transform: uppercase;
 }
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.room-status-card {
+  background: var(--bg-card);
+  padding: 1.75rem 1rem;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.room-status-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.room-status-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--border-color);
+}
+
+.room-status-card.available::before {
+  background: #10b981;
+}
+
+.room-status-card.occupied::before {
+  background: #ef4444;
+}
+
+.room-status-card.cleaning::before {
+  background: #f59e0b;
+}
+
+.room-status-card.maintenance::before {
+  background: #6b7280;
+}
+
+.room-number {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 0.25rem;
+}
+
+.room-type {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
