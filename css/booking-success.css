@@ -36,3 +36,20 @@
     height: 6px;
     background: linear-gradient(90deg, #27ae60, #2ecc71);
 }
+
+.success-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background: #e8f6ef;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.5rem;
+    animation: scaleIn 0.5s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.success-icon-wrapper i {
+    font-size: 40px;
+    color: #27ae60;
+}
