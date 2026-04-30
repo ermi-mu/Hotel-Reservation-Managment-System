@@ -16,5 +16,12 @@ if ($isLocal) {
     define('DB_USER', 'hotel_user');
     define('DB_PASS', 'HotelAppPass123++');
     define('DB_NAME', 'hotel_management');
+}else {
+    // LIVE CONFIGURATION (InfinityFree Server)
+    define('DB_HOST', 'sql113.infinityfree.com');
+    define('DB_USER', 'if0_41457820');
+    define('DB_PASS', 'ermias9318');
+    define('DB_NAME', 'if0_41457820_hotel_reservation_system');
 }
+
 ?>
