@@ -224,3 +224,19 @@
   border-color: var(--secondary-color);
   color: var(--secondary-color);
 }
+
+.auth-footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.auth-footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
