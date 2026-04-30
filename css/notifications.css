@@ -7,3 +7,21 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.toast-item {
+    min-width: 300px;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-left: 5px solid var(--secondary-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: slideIn 0.3s ease forwards;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
