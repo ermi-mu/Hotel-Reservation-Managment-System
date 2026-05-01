@@ -389,3 +389,71 @@ header {
 .opacity-70 {
   opacity: 0.7;
 }
+footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 6rem 0 2rem;
+  border-top: 1px solid rgba(197, 160, 89, 0.1);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+  display: block;
+  text-decoration: none;
+}
+
+.footer-links h4 {
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--secondary-color);
+}
+
+.newsletter-form {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.newsletter-form input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(197, 160, 89, 0.2);
+  padding: 0.8rem 1.2rem;
+  color: var(--white);
+  flex: 1;
+}
+
+.newsletter-form button {
+  background: var(--secondary-color);
+  border: none;
+  padding: 0 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+}
