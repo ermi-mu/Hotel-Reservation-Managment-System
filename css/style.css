@@ -261,7 +261,6 @@ header {
   margin-right: 8px;
 }
 
-/* About Section */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -292,4 +291,29 @@ header {
   bottom: -20px;
   border: 2px solid var(--secondary-color);
   z-index: -1;
+}
+.services-section {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 8rem 0;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(197, 160, 89, 0.1);
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.service-card:hover {
+  background: rgba(197, 160, 89, 0.05);
+  border-color: var(--secondary-color);
+  transform: translateY(-5px);
+}
+
+.service-card i {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
 }
