@@ -568,3 +568,78 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+    display: block;
+    padding: 1rem;
+  }
+
+  .btn-primary {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin: 3rem 0 2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-stats {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+}
