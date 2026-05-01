@@ -524,3 +524,33 @@ footer {
   opacity: 0.6;
   letter-spacing: 1px;
 }
+.footer-text-muted {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-social-link {
+  color: var(--secondary-color);
+  margin-right: 1.5rem;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.footer-social-link:hover {
+  transform: translateY(-3px);
+  color: var(--white);
+}
+
+.newsletter-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-bottom-text {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 3rem;
+  margin-top: 4rem;
+}
