@@ -173,3 +173,20 @@ header {
   font-family: "Segoe UI", sans-serif;
   opacity: 0.9;
 }
+.section-title {
+  text-align: center;
+  margin: 5rem 0 3rem;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
