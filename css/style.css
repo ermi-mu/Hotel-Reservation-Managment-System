@@ -488,3 +488,39 @@ footer {
   letter-spacing: 2px;
   color: var(--text-light);
 }
+.testimonials-section {
+  background-color: var(--primary-color);
+  padding: 10rem 0;
+  color: var(--white);
+  text-align: center;
+}
+
+.testimonial-quote-icon {
+  font-size: 4rem;
+  color: var(--secondary-color);
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.testimonial-text {
+  font-size: 2.2rem;
+  font-style: italic;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.4;
+}
+
+.testimonial-author {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-role {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
