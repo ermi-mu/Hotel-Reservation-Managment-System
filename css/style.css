@@ -317,3 +317,29 @@ header {
   color: var(--secondary-color);
   margin-bottom: 2rem;
 }
+.bg-light-cream {
+  background-color: #f9f7f2;
+}
+
+.py-8 {
+  padding: 8rem 0;
+}
+
+.experience-card {
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.experience-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-5px);
+}
+
+.experience-card i {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
